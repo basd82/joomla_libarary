@@ -1,2 +1,2 @@
-# joomla_libarary
-# joomla_libarary
+# dit zou lege namespace library moeten worden. 
+
