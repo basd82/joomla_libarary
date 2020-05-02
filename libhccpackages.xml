@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="1.6" method="upgrade">
+	<name>HCC namespaced library package</name>
+	<author>B.F. van den Dikkenberg</author>
+	<creationDate>Mei 2020</creationDate>
+	<packagename>HCClib</packagename>
+	<version>1.0.0</version>
+	<url>https://www.hobby.nl/</url>
+	<packager>B.F. van den Dikkenberg</packager>
+	<packagerurl>https://www.hobby.nl/</packagerurl>
+	<description>HCC namespaced library package</description>
+	<files folder="packages">
+		<file type="library" id="HCCxmlLibrary">HCClib.zip</file>
+		<file type="plugin" id="HCClib" group="system">HCClib-plugin.zip</file>
+	</files>
+</extension>
