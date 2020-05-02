@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+    <name>System - HCC namespaced library loader</name>
+    <author>Joomla! Project</author>
+    <creationDate>March 2013</creationDate>
+    <copyright>Copyright (C) 2005 - 2013 Open Source Matters. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later.</license>
+    <authorEmail>admin@joomla.org</authorEmail>
+    <authorUrl>www.joomla.org</authorUrl>
+    <version>1.0.0</version>
+    <description>Simple example plugin to register custom library.</description>
+
+    <files>
+        <filename plugin="mylib">mylib.php</filename>
+        <filename>index.html</filename>
+    </files>
+</extension>

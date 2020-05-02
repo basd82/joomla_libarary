@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.9" type="library" method="upgrade">
+	<name>HCC Library</name>
+	<libraryname>hcclib</libraryname>
+	<description>HCC namespaced Library</description>
+	<version>1.0.0</version>
+	<creationDate>April 2020</creationDate>
+	<author>B.F. van den Dikkenberg</author>
+	<creationDate>September 2018</creationDate>
+	<copyright>Copyright (C) 2020 B.F. van den Dikkenberg.</copyright>
+	<license>GNU General Public License version 2 or later.</license>
+	<authorEmail>bas@hobby.nl</authorEmail>
+	<authorUrl>www.hobby.nl</authorUrl>
+	<files>
+		<file>hcclib.php</file>
+		<file>Test.php</file>
+		<file>hcc.xml</file>
+	</files>
+</extension>
