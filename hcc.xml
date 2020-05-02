@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.9" type="library" method="upgrade">
 	<name>HCC Library</name>
-	<libraryname>HCC</libraryname>
-	<description></description>
+	<libraryname>hcclib</libraryname>
+	<description>HCC namespaced Library</description>
 	<version>1.0.0</version>
 	<creationDate>April 2020</creationDate>
 	<author>B.F. van den Dikkenberg</author>
@@ -11,14 +11,9 @@
 	<license>GNU General Public License version 2 or later.</license>
 	<authorEmail>bas@hobby.nl</authorEmail>
 	<authorUrl>www.hobby.nl</authorUrl>
-
-	<scriptfile>script.install.php</scriptfile>
-
 	<files>
-		<folder>vendor</folder>
-		<folder>src</folder>
-		<file>autoload.php</file>
+		<file>hcclib.php</file>
+		<file>test.php</file>
 		<file>hcc.xml</file>
 	</files>
-
 </extension>
