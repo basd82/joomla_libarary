@@ -9,8 +9,6 @@
 	<packager>B.F. van den Dikkenberg</packager>
 	<packagerurl>https://www.hobby.nl/</packagerurl>
 	<description>HCC namespaced library package</description>
-	<files folder="packages">
-		<file type="library" id="HCCxmlLibrary">HCClib.zip</file>
-		<file type="plugin" id="HCClib" group="system">HCClib-plugin.zip</file>
-	</files>
+	<file type="library" id="hcclib">HCClib.zip</file>
+	
 </extension>

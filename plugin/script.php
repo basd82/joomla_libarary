@@ -23,6 +23,7 @@ class plgSystemHCClibInstallerScript
     function install($parent)
     {
         $query = "UPDATE `#__extensions` SET `enabled` = '1' WHERE `type` = 'plugin' AND `element` = 'hcclib'";
+        echo $query;
         $db = JFactory::getDbo();
         $db->setQuery($query);
         $db->execute();

@@ -2,7 +2,7 @@
 <extension version="3.0" type="plugin" group="system" method="upgrade">
     <name>System - HCC namespaced library loader</name>
     <description>HCC namespaced Library loader plugin</description>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <creationDate>Mei 2020</creationDate>
     <author>B.F. van den Dikkenberg</author>
     <copyright>Copyright (C) 2020 B.F. van den Dikkenberg.</copyright>
@@ -11,7 +11,7 @@
     <authorUrl>www.hobby.nl</authorUrl>
     <scriptfile>script.php</scriptfile>
     <files>
-        <filename plugin="HCClib">hcclib.php</filename>
+        <filename plugin="HCClib">HCClib.php</filename>
         <filename>index.html</filename>
     </files>
 </extension>

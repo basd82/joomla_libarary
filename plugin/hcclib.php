@@ -15,6 +15,7 @@ defined('_JEXEC') or die;
  * @package     Joomla.plugin
  * @subpackage  System.hcclib
  */
+
 class plgSystemHCClib extends JPlugin
 {
     /**
